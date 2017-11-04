@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YNAB_Converter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" SizeToContent="WidthAndHeight">
     <Grid>
-        
+        <StackPanel>
+            <ComboBox x:Name="cb_Bank"></ComboBox>
+            <Button x:Name="btn_Konvertieren" Content="Konvertieren" Click="btn_Konvertieren_Click" ></Button>
+        </StackPanel>
     </Grid>
 </Window>
