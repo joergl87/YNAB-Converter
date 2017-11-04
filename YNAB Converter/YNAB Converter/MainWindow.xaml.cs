@@ -24,6 +24,8 @@ namespace YNAB_Converter
         public MainWindow()
         {
             InitializeComponent();
+            cb_Bank.Items.Add("Postbank");
+            cb_Bank.Items.Add("Commerzbank");
         }
 
         private void btn_Konvertieren_Click(object sender, RoutedEventArgs e)
